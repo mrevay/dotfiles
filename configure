@@ -1,2 +1,3 @@
 #!/bin/bash
 ln ~/dotfiles/.bashrc ~/.bashrc
+ln ~/dotfiles/.gitconfig ~/.gitconfig
