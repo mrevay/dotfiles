@@ -117,3 +117,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+# Add any aliases for convenience
+alias ll="ls -l"
+
+alias gs="git status"
+alias gc="git commit"
+alias glt="git log --all --graph --oneline"
+
+alias mv="mv -i"
+alias mkdir="mkdir -p"
