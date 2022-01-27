@@ -126,3 +126,5 @@ alias glt="git log --all --graph --oneline"
 
 alias mv="mv -i"
 alias mkdir="mkdir -p"
+
+source "./dotfiles/bash_funcs.sh"
