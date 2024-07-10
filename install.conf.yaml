@@ -5,5 +5,7 @@
 - clean: ['~']
 
 - link:
-    ~/.bashrc: bashrc
-    ~/.config/fish: fish
+    ~/.config/fish:
+      path: fish/**
+      glob: true
+      create: true
