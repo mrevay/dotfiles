@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+git submodule update --recursive --init
+install
+sudo ./install -p dotbot-apt/apt.py -c packages.conf.yaml
