@@ -6,3 +6,4 @@
 
 - link:
     ~/.bashrc: bashrc
+    ~/.config/fish: fish

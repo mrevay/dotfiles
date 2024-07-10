@@ -128,4 +128,3 @@ alias mv="mv -i"
 alias mkdir="mkdir -p"
 
 source "$HOME/dotfiles/bash_funcs.sh"
-source "$HOME/ros2_galactic/ros2-linux/setup.bash"
