@@ -127,4 +127,8 @@ alias glt="git log --all --graph --oneline"
 alias mv="mv -i"
 alias mkdir="mkdir -p"
 
+alias ccc="jq -s 'map(.[])' build/**/compile_commands.json > build/compile_commands.json"
+
+
 source "$HOME/dotfiles/bash_funcs.sh"
+. "$HOME/.cargo/env"
